@@ -1,0 +1,11 @@
+@use "../abstracts" as *;
+.card {
+  background-image: linear-gradient(
+    to right bottom,
+    $color-neutral-darkblue,
+    $color-neutral-darerkblue
+  );
+  border-radius: 15px;
+  overflow: hidden;
+  width: 30vw;
+}

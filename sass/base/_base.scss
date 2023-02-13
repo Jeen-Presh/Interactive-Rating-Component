@@ -15,8 +15,13 @@
 }
 
 body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   background-color: $color-neutral-verydarkblue;
   font-size: 0.9375rem;
   font-family: "Overpass", sans-serif;
   line-height: 1.5;
+  color: $color-white;
 }

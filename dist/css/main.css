@@ -15,10 +15,26 @@
 }
 
 body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   background-color: hsl(216deg, 12%, 8%);
   font-size: 0.9375rem;
   font-family: "Overpass", sans-serif;
   line-height: 1.5;
+  color: hsl(0deg, 0%, 100%);
+}
+
+.hidden {
+  display: none;
+}
+
+.card {
+  background-image: linear-gradient(to right bottom, hsl(213deg, 19%, 18%), hsl(233deg, 20%, 18%));
+  border-radius: 15px;
+  overflow: hidden;
+  width: 30vw;
 }
 
 /*# sourceMappingURL=main.css.map */
