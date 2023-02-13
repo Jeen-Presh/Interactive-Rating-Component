@@ -31,10 +31,20 @@ body {
 }
 
 .card {
-  background-image: linear-gradient(to right bottom, hsl(213deg, 19%, 18%), hsl(233deg, 20%, 18%));
+  background-image: radial-gradient(farthest-side at top center, hsl(215deg, 17%, 15%), hsl(215deg, 27%, 12%));
   border-radius: 15px;
   overflow: hidden;
   width: 30vw;
+  padding: 2rem;
+}
+.card__icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: hsl(213deg, 19%, 18%);
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=main.css.map */

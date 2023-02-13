@@ -1,11 +1,22 @@
 @use "../abstracts" as *;
 .card {
-  background-image: linear-gradient(
-    to right bottom,
-    $color-neutral-darkblue,
-    $color-neutral-darerkblue
+  background-image: radial-gradient(
+    farthest-side at top center,
+    $color-primary-gray,
+    $color-primary-darkgray
   );
   border-radius: 15px;
   overflow: hidden;
   width: 30vw;
+  padding: 2rem;
+
+  &__icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: $color-neutral-darkblue;
+    border-radius: 50%;
+  }
 }
