@@ -1,0 +1,22 @@
+@use "../abstracts/" as *;
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $color-neutral-verydarkblue;
+  font-size: 0.9375rem;
+  font-family: "Overpass", sans-serif;
+  line-height: 1.5;
+}
