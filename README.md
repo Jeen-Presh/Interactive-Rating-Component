@@ -15,8 +15,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -35,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://presh-card-component.netlify.app/)
 
 ## My process
 
@@ -58,8 +56,6 @@ Users should be able to:
 - Css function Radial gradient
 - Use javascript to make a button enabled
 - BEM
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Useful resources
 
