@@ -38,6 +38,7 @@
     &:focus {
       background-color: $color-primary-orange;
       color: $color-white;
+      transform: translateY(-3px) scale(1.2);
     }
   }
 
@@ -58,8 +59,10 @@
       cursor: pointer;
       transition: all 0.3s ease-in-out;
       z-index: -1;
+
       &:checked {
         background-color: $color-neutral-lightgrey;
+
         & + span {
           color: $color-white;
         }

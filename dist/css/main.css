@@ -86,6 +86,7 @@ body {
 .card-rating:hover, .card-rating:focus {
   background-color: hsl(25deg, 97%, 53%);
   color: hsl(0deg, 0%, 100%);
+  transform: translateY(-3px) scale(1.2);
 }
 .card__message {
   opacity: 0.5;
@@ -121,6 +122,48 @@ body {
 
 .btn {
   display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 30px;
+  padding: 0.8rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 4px;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+  border: none;
+}
+.btn--primary {
+  background-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+}
+.btn--primary::after {
+  background-color: hsl(25deg, 97%, 53%);
+}
+.btn:hover {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+  transform: translateY(-3px);
+}
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.2s ease-in-out;
+}
+.btn:active {
+  transform: translateY(-1px);
 }
 
 /*# sourceMappingURL=main.css.map */
