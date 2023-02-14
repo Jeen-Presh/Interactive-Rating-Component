@@ -23,7 +23,7 @@
     }
   }
 
-  &:hover {
+  &:hover:enabled {
     background-color: $color-white;
     color: $color-primary-orange;
     transform: translateY(-3px);
@@ -34,7 +34,7 @@
     }
   }
 
-  &::after {
+  &:enabled:after {
     content: "";
     display: inline-block;
     height: 100%;
@@ -47,7 +47,12 @@
     transition: all 0.2s ease-in-out;
   }
 
-  &:active {
+  &:enabled:active {
     transform: translateY(-1px);
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
   }
 }
