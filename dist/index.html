@@ -12,7 +12,7 @@
   <body>
     <main>
       <!-- Rating state -->
-      <div id="rating-state" class="card">
+      <div class="card card--rating-state">
         <div class="card-icon mb-8">
           <img src="images/icon-star.svg" alt="" class="icon" />
         </div>
@@ -82,7 +82,10 @@
       </div>
 
       <!-- Thank you state -->
-      <div class="card hidden card--center" id="thank-you-state">
+      <div
+        class="card hidden card--center card--thank-you-state"
+        id="thank-you-state"
+      >
         <img
           src="images/illustration-thank-you.svg"
           alt=""
@@ -90,7 +93,7 @@
         />
 
         <p class="card__rating-message card__rating-message--orange mb-8">
-          You selected <span class="selected-iput"></span> out of 5
+          You selected <span class="selected-input"></span> out of 5
         </p>
         <h2 class="heading--secondary mb-4">Thank You!</h2>
         <p class="card__message">
