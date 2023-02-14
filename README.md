@@ -86,5 +86,5 @@ npm install -g sass
 - If you want to edit the code and test, in the root folder of this repository, run this command from the command line:
 
 ```
-sass --watch assets/sass/main.scss assets/css/style.css
+sass --watch sass/:dist/css/
 ```
