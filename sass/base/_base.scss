@@ -3,9 +3,11 @@
 .attribution {
   font-size: 11px;
   text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
+
+  a {
+    color: $color-primary-orange;
+    text-decoration: none;
+  }
 }
 
 * {
@@ -16,12 +18,12 @@
 
 body {
   display: grid;
-  justify-content: center;
-  align-items: center;
+  place-content: center;
   min-height: 100vh;
   background-color: $color-neutral-verydarkblue;
   font-size: 0.9375rem;
   font-family: "Overpass", sans-serif;
   line-height: 1.5;
   color: $color-white;
+  padding: 0 1.5rem;
 }

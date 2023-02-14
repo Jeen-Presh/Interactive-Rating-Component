@@ -50,12 +50,17 @@
       </div>
 
       <!-- Thank you state -->
-      <div class="card hidden" id="thank-you-state">
-        <div class="Card__image">
-          <img src="images/illustration-thank-you.svg" alt="" />
-        </div>
-        <p class="card__rating-message"></p>
-        <h2 class="heading--secondary">Thank You!</h2>
+      <div class="card hidden card--center" id="thank-you-state">
+        <img
+          src="images/illustration-thank-you.svg"
+          alt=""
+          class="card__image"
+        />
+
+        <p class="card__rating-message card__rating-message--orange mb-8">
+          You selected <span class="selected-iput"></span> out of 5
+        </p>
+        <h2 class="heading--secondary mb-4">Thank You!</h2>
         <p class="card__message">
           We appreciate you taking the time to give a rating. If you ever need
           more support, don’t hesitate to get in touch!
@@ -63,7 +68,7 @@
       </div>
     </main>
 
-    <div class="attribution">
+    <div class="attribution mt-8">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
