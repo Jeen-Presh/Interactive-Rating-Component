@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://presh-card-component.netlify.app/)
+- Solution URL: [Interactive rating component(HTML5, CSS3, SASS, BEM, JAVASCRIPT)](https://www.frontendmentor.io/solutions/interactive-rating-componenthtml5-css3-sass-bem-javascript-J3tMP6T5N6)
+- Live Site URL: [ live site](https://presh-card-component.netlify.app/)
 
 ## My process
 
