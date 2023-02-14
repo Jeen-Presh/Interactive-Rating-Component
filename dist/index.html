@@ -13,29 +13,39 @@
     <main>
       <!-- Rating state -->
       <div id="rating-state" class="card">
-        <div class="card__icon">
+        <div class="card-icon mb-8">
           <img src="images/icon-star.svg" alt="" class="icon" />
         </div>
-        <h1 class="card__heading--primary">How did we do?</h1>
-        <p class="card__message--1">
+        <h1 class="heading-primary">How did we do?</h1>
+        <p class="card__message mb-8">
           Please let us know how we did with your support request. All feedback
           is appreciated to help us improve our offering!
         </p>
         <form class="card__form">
-          <fieldset class="">
+          <fieldset class="fieldset">
             <legend class="sr-only">Please select a rating:</legend>
-            <input type="radio" name="one" id="one" value="1" />
-            <label for="one">1</label>
-            <input type="radio" name="two" id="two" value="2" />
-            <label for="two">2</label>
-            <input type="radio" name="three" id="three" value="3" />
-            <label for="three">3</label>
-            <input type="radio" name="four" id="four" value="4" />
-            <label for="four">4</label>
-            <input type="radio" name="five" id="five" value="5" />
-            <label for="five">5</label>
-            <button type="submit" class="btn btn--primary">Submit</button>
+            <label for="one" class="card-rating">
+              <input type="radio" name="user-rating" id="one" value="1" />
+              <span>1</span>
+            </label>
+            <label for="two" class="card-rating">
+              <input type="radio" name="user-rating" id="two" value="2" />
+              <span>2</span>
+            </label>
+            <label for="three" class="card-rating">
+              <input type="radio" name="user-rating" id="three" value="3" />
+              <span>3</span>
+            </label>
+            <label for="four" class="card-rating">
+              <input type="radio" name="user-rating" id="four" value="4" />
+              <span>4</span>
+            </label>
+            <label for="five" class="card-rating">
+              <input type="radio" name="user-rating" id="five" value="5" />
+              <span>5</span>
+            </label>
           </fieldset>
+          <button type="submit" class="btn btn--primary">Submit</button>
         </form>
       </div>
 
@@ -44,11 +54,9 @@
         <div class="Card__image">
           <img src="images/illustration-thank-you.svg" alt="" />
         </div>
-        <div class="card__message-wrapper">
-          <p class="card__rating-message"></p>
-        </div>
-        <h2 class="card__heading--secondary">Thank You!</h2>
-        <p class="card__message--2">
+        <p class="card__rating-message"></p>
+        <h2 class="heading--secondary">Thank You!</h2>
+        <p class="card__message">
           We appreciate you taking the time to give a rating. If you ever need
           more support, don’t hesitate to get in touch!
         </p>
